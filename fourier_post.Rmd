@@ -1,0 +1,25 @@
+### Here you will hopefully be familiar with signal processing analysis. Using the incredible -old- discover that made Fourier some centuries ago.
+
+## But what is a signal? Is is useful?
+
+Well, a lot of things that surround us are signals and there are analysis on them, for example:
+- Sound, music: filtering noise, quality improvement...
+- Images, video: face recognition, color filters, object and edge detection...
+- Temperature: wheater climate analysis to forecast it...
+- Heart rate: detecting abnormal behavior like arrhythmia... 
+- Brain signal: to guess the image that a guy is looking at, or what happen when a finger is moved
+
+
+
+Signals are looong and complex, like this one:
+[picture complex signal]
+_Big data signals_
+
+Normal approaches such as, average over last 'X' amount of time, trends, rate of change, etc, are not enough. This approach considers *time* as a key factor, and is quite useful in the well known time series analysis: https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html 
+
+Now, what Fourier did was to go to other dimension, like Neo in Matrix, to extract key measures of any signal.
+
+He demostrated that, any complex signal can be expressed like the sum of other simple signals. But wait, it's not the time of showing off any complex formula and to leave main concept fly away...
+
+In this page
+
